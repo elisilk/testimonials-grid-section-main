@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/elisilk/blog-preview-card-main](https://github.com/elisilk/blog-preview-card-main)
-- Live Site URL: [https://elisilk.github.io/blog-preview-card-main/](https://elisilk.github.io/blog-preview-card-main/)
+- Solution URL: [https://github.com/elisilk/testimonials-grid-section-main](https://github.com/elisilk/testimonials-grid-section-main)
+- Live Site URL: [https://elisilk.github.io/testimonials-grid-section-main/](https://elisilk.github.io/testimonials-grid-section-main/)
 
 ## My process
 
