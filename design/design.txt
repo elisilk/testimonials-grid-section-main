@@ -1,0 +1,110 @@
+-- Mobile -- 
+
+Clifford
+purple background + background image
+card (x, y);(w x h) -> (24, 71);(327 x 444)
+header (x, y);(w x h) -> (56, 97);(121 x 28)
+title (x, y);(w x h) -> (56, 143);(263 x 120)
+text (x, y);(w x h) -> (56, 303);(247 x 180)
+header to title gap vertical: 143-(97+28)= 18
+title to text gap vertical: 303-(143+120)= 40
+
+Walters
+dark grayish blue background
+card (x, y);(w x h) -> (24, 539);(327 x 240)
+header (x, y);(w x h) -> (56, 565);(136 x 28)
+title (x, y);(w x h) -> (56, 611);(263 x 48)
+text (x, y);(w x h) -> (56, 675);(263 x 72)
+header to title gap vertical: 611-(565+28)= 18
+title to text gap vertical: 675-(611+48)= 16
+
+Harmon
+white background
+card (x, y);(w x h) -> (24, 803);(327 x 222)
+header (x, y);(w x h) -> (56, 829);(134 x 28)
+title (x, y);(w x h) -> (56, 875);(263 x 48)
+text (x, y);(w x h) -> (56, 939);(263 x 54)
+header to title gap vertical: 875-(829+28)= 18
+title to text gap vertical: 939-(875+48)= 16
+
+Abrams
+dark blackish blue background
+card (x, y);(w x h) -> (24, 1049);(327 x 384)
+header (x, y);(w x h) -> (56, 1075);(124 x 28)
+title (x, y);(w x h) -> (56, 1121);(263 x 120)
+text (x, y);(w x h) -> (56, 1257);(263 x 144)
+header to title gap vertical: 1121-(1075+28)= 18
+title to text gap vertical: 1257-(1121+120)= 16
+
+Whittle
+white background
+card (x, y);(w x h) -> (24, 1457);(327 x 438)
+header (x, y);(w x h) -> (56, 1483);(121 x 28)
+title (x, y);(w x h) -> (56, 1529);(263 x 48)
+text (x, y);(w x h) -> (56, 1593);(263 x 270)
+header to title gap vertical: 1529-(1483+28)= 18
+title to text gap vertical: 1593-(1529+48)= 16
+
+
+
+-- Desktop -- 
+
+Clifford
+purple background + background image
+spans 2 columns x 1 row
+card (x, y);(w x h) -> (165, 164);(540 x 282)
+header (x, y);(w x h) -> (197, 190);(121 x 28)
+title (x, y);(w x h) -> (197, 236);(476 x 72)
+text (x, y);(w x h) -> (197, 324);(476 x 90)
+header to title gap vertical: 236-(190+28)= 18
+title to text gap vertical: 324-(236+72)= 16
+padding vertical start: 190 - 164 = 26
+padding vertical end: (164 + 282) - (324 + 90) = 32
+
+
+Walters
+dark grayish blue background
+spans 1 column x 1 row
+card (x, y);(w x h) -> (735, 164);(255 x 282)
+header (x, y);(w x h) -> (767, 190);(136 x 28)
+title (x, y);(w x h) -> (767, 236);(191 x 72)
+text (x, y);(w x h) -> (767, 324);(191 x 90)
+header to title gap vertical: 236-(190+28)= 18
+title to text gap vertical: 324-(236+72)= 16
+
+Harmon
+white background
+spans 1 column x 1 row
+card (x, y);(w x h) -> (165, 470);(255 x 266)
+header (x, y);(w x h) -> (197, 496);(134 x 28)
+title (x, y);(w x h) -> (197, 542);(191 x 72)
+text (x, y);(w x h) -> (197, 638);(191 x 72)
+header to title gap vertical: 542-(496+28)= 18
+title to text gap vertical: 638-(542+72)= 24
+
+Abrams
+dark blackish blue background
+spans 2 column x 1 row
+card (x, y);(w x h) -> (450, 470);(540 x 266)
+header (x, y);(w x h) -> (482, 496);(124 x 28)
+title (x, y);(w x h) -> (482, 542);(476 x 72)
+text (x, y);(w x h) -> (482, 638);(476 x 72)
+header to title gap vertical: 542-(496+28)= 18
+title to text gap vertical: 638-(542+72)= 24
+
+Whittle
+white background
+spans 1 column x 2 rows
+255px w x 572px h
+header: 121px w x 28px h
+card: (x, y) -> (1020, 164)
+card (x, y);(w x h) -> (1020, 164);(255 x 572)
+header (x, y);(w x h) -> (1052, 190);(121 x 28)
+title (x, y);(w x h) -> (1052, 236);(191 x 72)
+text (x, y);(w x h) -> (1052, 332);(191 x 378)
+header to title gap vertical: 236-(190+28)= 18
+title to text gap vertical: 332-(236+72)= 24
+
+
+
+
